@@ -39,10 +39,12 @@
 			<plugin>
 				<groupId>com.example</groupId>
 				<artifactId>santech-maven-plugin</artifactId>
-				<version>0.0.3</version>
+				<version>0.0.4</version>
 				<configuration>
 					<clientId>${clientId}</clientId>
 					<clientSecret>${clientSecret}</clientSecret>
+					<initiative>Sample Microservice</initiative>
+					<projectName>Maven Web App</projectName>
 				</configuration>
 				<executions>
 					<execution>
